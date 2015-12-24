@@ -55,14 +55,15 @@
 > --- By KOBVCS
 
 ---
+### About Coding
 
 从程序员的角度来说，这一年也无疑是失败的一年。从3月份到6月份，整整4个月的时间，我没有打开过一次Android Studio，没有写过一行代码。以至于后来我几次在写`System.out.println("Hello World!")`标榜身份的时候都会把System习惯性的写成自己的名字Syetem(Syehunter)。
 
 好在这一年也并不是全无收获，决定开始维护自己的[个人博客](http://z.sye.space)，维护更新两个library--[RecyclerViewManager](https://github.com/Syehunter/RecyclerViewManager)、[OkHttpManager](https://github.com/Syehunter/OkHttpManager),学习使用RxJava成功构建了一个项目并已上线运营…
 
 ---
-
-关于未来，其实我从未给真正给自己定过什么目标，我只是有一个简单而复杂的构想：
+### About Dream
+其实我从未给真正给自己定过什么目标，我只是有一个简单而复杂的构想：
 
 	/**
  	* Created by Syehunter on 15/12/25.
