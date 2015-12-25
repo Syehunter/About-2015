@@ -76,7 +76,7 @@
  	*/
 	public class AboutDream {
 
-    	public static final AboutDream mDream = new AboutDream();
+    	private static final AboutDream mDream = new AboutDream();
 
     	/**家*/
     	private static Home mHome;
@@ -98,15 +98,13 @@
         	mFold = new Cat<Fold>();
         	SanSiro = new Travel<ACMilan>();
         	Seattle = new Travel<DOTA2>();
-
-        	liveTheLifeIWanna();
     	}
 
     	/**
      	* 找个女朋友
      	* @param girlfriend
      	*/
-    	public static void girlfriend(Girlfriend girlfriend) {
+    	private static void girlfriend(Girlfriend girlfriend) {
         	if (girlfriend.hates().contains(mFold)) {
             	//如果女朋友不喜欢猫,再见!
             	return;
@@ -118,8 +116,13 @@
     	/**
      	* 过自己想要的生活
      	*/
-    	private void liveTheLifeIWanna() {
+    	private static void liveTheLifeIWanna() {
         	//...
+    	}
+    	
+    	public static void main(String[] args) {
+    		girlfriend(who);
+    		liveTheLifeIwanna();
     	}
     	
 	}
